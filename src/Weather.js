@@ -47,10 +47,10 @@ export default function Weather() {
                 {weatherData.temperature}
               </strong>
               <span className="unit">
-                <a href="#" className="active">
+                <a href="\" className="active">
                   °C
                 </a>{" "}
-                | <a href="#">°F</a>
+                | <a href="\">°F</a>
               </span>
             </div>
           </div>
@@ -68,6 +68,7 @@ export default function Weather() {
         This project is coded by Loredana Mihai and is
         <a
           href="https://github.com/loredanamihai/weather-react"
+          rel="noreferrer"
           target="_blank"
         >
           {" "}
