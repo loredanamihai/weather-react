@@ -1,0 +1,98 @@
+.Weather .weather-app {
+  max-height: 800px;
+  min-height: 800px;
+  border-radius: 25px;
+}
+
+.Weather .day {
+  background: #52539c url("./image/bk_day.jpg") no-repeat;
+  background-size: contain;
+}
+
+.Weather .night {
+  background: #52539c url("./image/bk_night.jpg") no-repeat;
+  background-size: contain;
+}
+
+.Weather .change-search {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.Weather .change {
+  border: none;
+  margin-top: 5px;
+}
+
+.Weather .form-button {
+  background-color: #ffff;
+  border: none;
+  padding: 4px 12px;
+  margin-top: 5px;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature {
+  color: #ffff;
+  text-align: center;
+}
+
+.Weather #description {
+  text-transform: capitalize;
+}
+
+.Weather .weather-temperature strong {
+  font-size: 55px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature .unit {
+  position: relative;
+  font-size: 16px;
+  top: -26px;
+}
+
+.Weather .weather-temperature .active {
+  color: #ffff;
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .col-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.Weather .weather-details {
+  text-align: center;
+}
+
+.Weather .weather-forecast {
+  margin-top: 500px;
+  color: #ffff;
+}
+
+.Weather .center-icon {
+  text-align: center;
+}
+
+.Weather .weather-forecast h3 {
+  font-size: 14px;
+  font-weight: 400;
+  height: 15px;
+  line-height: 15px;
+}
+
+.Weather .weather-forecast-temperature {
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+}
